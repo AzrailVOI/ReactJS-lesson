@@ -1,0 +1,30 @@
+.form {
+  margin: 1rem auto 2.5rem;
+}
+.form input {
+  padding: 5px 10px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  border: 0.15rem solid transparent;
+  border-radius: 0.1rem;
+  margin-bottom: 0.5em;
+  display: block;
+}
+.form input:focus {
+  border-color: coral;
+}
+
+.btn {
+  display: block;
+  padding: 0.5rem 2rem;
+  border: none;
+  outline: none;
+  margin-top: 1rem;
+  border-radius: 0.3rem;
+  transition: all 0.5s ease;
+}
+.btn:hover {
+  background-color: deepskyblue;
+}
+
+/*# sourceMappingURL=CreateCarForm.module.css.map */
